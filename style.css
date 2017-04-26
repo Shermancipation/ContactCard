@@ -6,7 +6,7 @@
 
 #globalWrapper {
   display: block;
-  width: 980px;
+  width: 972px;
   min-height: 600px;
   border: 1px dotted red;
   margin: 0 auto;
@@ -26,7 +26,6 @@ form {
   display: inline-block;
   width: 479px;
   height: 600px;
-  vertical-align: top;
   border: 1px dotted red;
 }
 
@@ -37,9 +36,15 @@ form {
   height: 100px;
 }
 
-#contactcard h1, #contactcard p {
+.contactCard {
+  display: inline-block;
+  width: 60%;
+  height: 100px;
+  margin-left: 105px;
   text-align: center;
+  border: 1px solid black;
 }
+
 
 /*#firstnamediv {
   margin-bottom: 20px;
