@@ -3,37 +3,51 @@
   padding: 0;
 }
 
+p, input {
+  display: inline-block;
+
+}
 
 #globalWrapper {
   display: block;
   width: 972px;
   min-height: 600px;
-  border: 1px dotted red;
-  margin: 0 auto;
-
+  /*border: 1px dotted red;*/
+  margin: 10px auto 0px auto;
 }
-
 
 form {
   display: inline-block;
   width: 485px;
   height: 600px;
   vertical-align: top;
-  border: 1px dotted red;
+  /*border: 1px dotted red;*/
+}
+
+#firstnamei, #lastnamei {
+  margin-bottom: 10px;
 }
 
 #rightsection {
   display: inline-block;
   width: 479px;
   height: 600px;
-  border: 1px dotted red;
+  /*border: 1px dotted red;*/
 }
 
-#contactcard {
-  display: inline-block;
-  border: 1px dotted red;
-  width: 100%;
+#descriptiondiv {
+  margin-top: 50px;
+}
+
+#descriptiondiv p{
+  display: block;
+  margin-bottom: 20px;
+}
+
+#descriptioni {
+  width: 243px;
   height: 100px;
+  margin-bottom: 20px;
 }
 
 .contactCard {
@@ -43,23 +57,9 @@ form {
   margin-left: 105px;
   text-align: center;
   border: 1px solid black;
+  overflow: auto;
 }
 
-
-/*#firstnamediv {
-  margin-bottom: 20px;
+.contactCard h1, h2, p {
+  vertical-align: middle;
 }
-
-#lastnamediv {
-  margin-bottom: 50px;
-}
-
-#descriptiondiv {
-  margin-bottom: 50px;
-}
-
-#submitbutton {
-  height: 25px;
-  width: 100px;
-  border-radius: 10px;
-}*/
